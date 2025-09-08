@@ -7,6 +7,7 @@ interface HomeLayoutProps {
 }
 
 export const HomeLayout = ({children}: HomeLayoutProps) => {
+
   return (
     <SidebarProvider>
       <div className='w-full'>
